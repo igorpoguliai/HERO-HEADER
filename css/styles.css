@@ -560,5 +560,6 @@ body {
 
 .modal-close-btn:active {
   transform: scale(0.90);
+  opacity: 0.33;
 }
 /* END MODAL */
