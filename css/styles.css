@@ -446,6 +446,12 @@ body {
     text-align: center;
   }
 
+  .information-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .play-video {
     margin: auto;
   }
