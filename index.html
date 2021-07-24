@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <title>HERO HEADER</title>
 </head>
 <body id="body">
@@ -177,6 +179,84 @@
        </div>
      </div>
    </section>
+
+
+   <!-- swiper for adaptive -->
+
+   <!-- Slider main container -->
+<section class="swiper-adaptive">
+<div class="container">
+
+  <div class="text-center">
+    <h2 class="minor-hedear" data-aos="flip-up">updates & news</h2>
+    <div class="recent-blog" data-aos="flip-down">
+     recent blog posts
+    </div>
+   </div>
+
+<div class="swiper-container" data-aos="zoom-out-up">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="image">
+        <img src="/img/frame-two.png" alt="scenery">
+        <div>
+          <a class="opinion">opinion</a>
+        </div>
+        <div class="desc">
+          why you should start using Figma for prototyping.
+        </div>
+        <time class="date" pubdate>
+          05 june 2020
+        </time>
+     </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="image">
+        <img src="/img/frame-three.png" alt="scenery">
+        <div>
+          <a class="news">news</a>
+        </div>
+        <div class="desc">
+          the top 10 Figma plugins that will increase your workflow by 200%.
+        </div>
+        <time class="date" pubdate>
+          05 june 2020
+        </time>
+     </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="image">
+        <img src="/img/frame-four.png" alt="scenery">
+        <div>
+          <a class="opinion-diff-style">opinion</a>
+        </div>
+        <div class="desc">
+          why you should start using Figma for prototyping.
+        </div>
+        <time class="date" pubdate>
+          05 june 2020
+        </time>
+     </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</div>
+</section>
+   <!-- swiper for adaptive -->
+
    <!-- end fourth-section -->
  </main>
  <!-- END MAIN -->
@@ -215,6 +295,10 @@
       duration: 1500
     });
   </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <script src="/js/script.js"></script>
 <!-- END SCRIPT -->
 </body>
