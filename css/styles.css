@@ -432,7 +432,7 @@ body {
 
   .burger-menu.active.open {
     position: fixed;
-    right: 30px;
+    right: 15px;
     z-index: 11;
   }
 
