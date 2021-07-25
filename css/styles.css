@@ -601,6 +601,7 @@ body {
 .modal-close-btn img {
   width: 100%;
   height: 100%;
+  filter: drop-shadow(1px 1px 5px white);
 }
 
 .modal-close-btn:hover {
