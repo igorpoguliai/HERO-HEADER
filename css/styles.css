@@ -98,7 +98,7 @@ body {
   background-color: transparent;
 }
 
-.scrolling:hover path {
+.scrolling path {
   animation: scrolling 2s infinite;
   animation-delay: 0.2s;
 }
