@@ -556,10 +556,6 @@ body {
   .date {
     padding-bottom: 25px;
   }
-
-  .swiper-scrollbar {
-    display: none;
-  }
 }
 
 @media (max-width: 500px) {
