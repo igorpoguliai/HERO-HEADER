@@ -549,11 +549,16 @@ body {
 
   .swiper-adaptive {
     padding-top: 45px;
+    padding-bottom: 25px;
     display: flex;
   }
 
   .date {
     padding-bottom: 25px;
+  }
+
+  .swiper-scrollbar {
+    display: none;
   }
 }
 
